@@ -1,9 +1,21 @@
+
 import 'package:flutter/material.dart';
 
-import '../Screen/homescreen.dart';
+import 'gmail.dart';
 
-class AppRoutes {
-  static Map<String, Widget Function(BuildContext)> routes = {
-    '/': (context) => const HomeScreen(),
-  };
+
+class gmail extends StatelessWidget {
+  const gmail({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: {
+        '/' : (context) => HomeScreen(),
+      },
+    );
+  }
 }
+
+
