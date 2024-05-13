@@ -230,3 +230,66 @@ void main() {
     print("");
   });
 }
+
+###
+<h1 align = "left"></h1>
+
+# Status Bar
+## In Build Context (Global) : 
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Colors.green),
+    );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: AppRoutes.routes,
+    );
+  }
+}
+```
+
+##  AppBar :
+```
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.amber,
+        title: Text('StatusBarTopic',style: TextStyle(color: Colors.white,fontSize: 26),),
+        systemOverlayStyle:
+        const SystemUiOverlayStyle(statusBarColor: Colors.grey),
+      ),
+    );
+  }
+}
+```
+
+# Global :
+```
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.landscapeLeft,
+    ]);
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: AppRoutes.routes,
+    );
+  }
+}
