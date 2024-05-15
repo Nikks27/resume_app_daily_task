@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:resume_app_daily_task/utils/snackBar/snackbar.dart';
 
 import 'Log in/login.dart';
 import 'Log in/signup.dart';
@@ -18,10 +19,7 @@ class gmail extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => email(),
-        '/password' : (context) => password(),
-        '/successfull' : (context) => successfull(),
-
+        '/' : (context) => snackBar(),
       }
     );
   }
