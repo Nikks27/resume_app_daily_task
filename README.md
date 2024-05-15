@@ -293,18 +293,54 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
 
-# Timer App
+#  Login Page UI
 
-<h1 align="center"> 1.Timer App </h1>
+<h1 align="center"> 1. Login Page UI </h1>
 
 <h1 align="left"></h1>
 
 
 <div align ="center">
 
-  <img src = "https://github.com/Nikks27/clock_app/assets/148762716/fdf52719-b834-4572-ad62-6e6585780d19" height ="550">
-    <img src = "https://github.com/Nikks27/clock_app/assets/148762716/9fd6e53c-d9a0-46b6-9d9c-0dd7997ee305" height ="550">
-      <img src = "https://github.com/Nikks27/clock_app/assets/148762716/d2c919e9-ab49-4ca4-89e9-ae0e41bd58b8" height ="550">
+  <img src = "" height ="550">
+    <img src = "" height ="550">
+   
 </div>
+
+
+
+#  Google Login Page With Validation
+
+<h1 align="center"> 1. Google Login Page With Validation </h1>
+
+<h1 align="left"></h1>
+
+
+<div align ="center">
+
+  <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/beae6817-7d8f-44e6-85b0-bde1f534c72e" height ="550">
+    <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/6a02d04b-f407-4f18-8fe0-38f5a053b7c3" height ="550">
+     <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/6f7edfc9-ffc9-4686-b9ad-3b8de983ad2f" height ="550">
+   
+</div>
+
+
+
+#  SnackBar & TextFormField
+
+<h1 align="center"> 1. SnackBar & TextFormField </h1>
+
+<h1 align="left"></h1>
+
+<div align ="center">
+
+  <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/6e692b94-51ad-4c4f-9932-67f6ce301950" height ="550">
+   
+</div>
+
+
+
+
 
