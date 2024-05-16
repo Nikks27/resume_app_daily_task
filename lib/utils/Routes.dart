@@ -9,6 +9,7 @@ import 'google.dart';
 import 'googleLogIn/google1.dart';
 import 'googleLogIn/google2.dart';
 import 'googleLogIn/google3.dart';
+import 'imagepicker/imagepicker.dart';
 
 
 class gmail extends StatelessWidget {
@@ -19,7 +20,7 @@ class gmail extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => snackBar(),
+        '/' : (context) => imagepicker(),
       }
     );
   }
