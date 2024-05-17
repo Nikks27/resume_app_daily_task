@@ -20,7 +20,7 @@ class gmail extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => imagepicker(),
+        '/' : (context) => ImagePick(),
       }
     );
   }
