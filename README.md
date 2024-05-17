@@ -341,6 +341,17 @@ class MyApp extends StatelessWidget {
 </div>
 
 
+#  Image Picker in Flutter
+
+<h1 align="center"> 1. Image Picker in Flutter </h1>
+
+<h1 align="left"></h1>
+
+<div align ="center">
+
+  <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/a4c9cfb7-d437-4d8c-95ab-45c41c0c9eb0" height ="550">
+   
+</div>
 
 
 
