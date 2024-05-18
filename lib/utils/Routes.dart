@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:resume_app_daily_task/utils/snackBar/snackbar.dart';
 
+import 'Id Card Registration/registration.dart';
 import 'Log in/login.dart';
 import 'Log in/signup.dart';
 import 'gmail.dart';
@@ -20,7 +21,7 @@ class gmail extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => ImagePick(),
+        '/' : (context) => imagepick(),
       }
     );
   }
