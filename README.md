@@ -353,6 +353,19 @@ class MyApp extends StatelessWidget {
    
 </div>
 
+#  ID Card's Registration Form
+
+<h1 align="center"> 1. ID Card's Registration Form  </h1>
+
+<h1 align="left"></h1>
+
+<div align ="center">
+
+  <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/c99b9004-68ed-451f-a507-7fd227a7b5fd" height ="550">
+    <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/ae8b90da-3434-4234-b806-d7c24bebb51d" height ="550">
+
+</div>
+
 #  Generate Dynamic Text Field
 
 <h1 align="center"> 1. Generate Dynamic Text Field </h1>
