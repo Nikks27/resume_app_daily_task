@@ -1,32 +1,81 @@
-// import 'package:flutter/material.dart';
-//
-// class newscreen extends StatefulWidget {
-//   const newscreen({super.key});
-//
-//   @override
-//   State<newscreen> createState() => _newscreenState();
-// }
-//
-// class _newscreenState extends State<newscreen> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//         appBar: AppBar(
-//           centerTitle: true,
-//           backgroundColor: Colors.brown,
-//           title: Text('skills',style: TextStyle(fontSize:25,color: Colors.white,fontWeight: FontWeight.bold),)
-//         ),
-//       body: Column(
-//         children: [
-//           Container(
-//             height: 50,
-//             width: 50,
-//             decoration: BoxDecoration(
-//               color: Colors.black,
-//             ),
-//           )
-//         ],
-//       )
-//     );
-//   }
-// }
+import 'package:flutter/material.dart';
+
+TextEditingController text=TextEditingController();
+class DynaimcTextField extends StatefulWidget {
+  const DynaimcTextField({super.key});
+
+  @override
+  State<DynaimcTextField> createState() => _DynaimcTextFieldState();
+}
+
+class _DynaimcTextFieldState extends State<DynaimcTextField> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.only(top: 100),
+        child: SingleChildScrollView(
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+            ...List.generate(
+              textField.length,
+                  (index) => Padding(
+                  padding: const EdgeInsets.only(left: 10, right: 10),
+                  child: ListTile(
+                    title: TextField(
+                      decoration: InputDecoration(
+                          enabledBorder: OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Colors.blue,
+                              width: 5,
+                            ),
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                  color: Colors.black,
+                                  width: 5
+                              )
+                          )
+                      ),
+                    ),
+                    trailing: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        InkWell(
+                            onTap: () {
+                              TextEditingController text =TextEditingController();
+                              setState(() {
+                                textField.add(text);
+                              });
+                            },
+                            child: Icon(
+                              Icons.add_circle,
+                              size: 30,
+                            )),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        InkWell(
+                          onTap: () {
+                            setState(() {
+                              textField.remove(textField[index]);
+                            });
+                          },
+                          child: Icon(
+                            Icons.delete_outlined,
+                            size: 30,
+                          ),
+                        ),
+                      ],
+                    ),
+                  )),
+            )
+          ]),
+        ),
+      ),
+    );
+  }
+}
+
+List textField = [  text, ];

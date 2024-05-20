@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:resume_app_daily_task/utils/snackBar/snackbar.dart';
 
+import 'Generate Dynamic Text Field/skills.dart';
 import 'Id Card Registration/registration.dart';
 import 'Log in/login.dart';
 import 'Log in/signup.dart';
@@ -21,7 +22,7 @@ class gmail extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => imagepick(),
+        '/' : (context) => DynaimcTextField(),
       }
     );
   }
