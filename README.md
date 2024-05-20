@@ -353,5 +353,21 @@ class MyApp extends StatelessWidget {
    
 </div>
 
+#  Generate Dynamic Text Field
+
+<h1 align="center"> 1. Generate Dynamic Text Field </h1>
+
+<h1 align="left"></h1>
+
+<div align ="center">
+
+  <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/01cb7122-d7dd-45c7-804a-8d931babd0cf" height ="550">
+   
+
+https://github.com/Nikks27/resume_app_daily_task/assets/148762716/a4e89b81-e3af-4cdd-a123-cdc19fa3ab52
+
+
+</div>
+
 
 
