@@ -25,7 +25,7 @@ class _DynaimcTextFieldState extends State<DynaimcTextField> {
                       decoration: InputDecoration(
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: Colors.blue,
+                              color: Colors.brown,
                               width: 5,
                             ),
                             borderRadius: BorderRadius.circular(10),

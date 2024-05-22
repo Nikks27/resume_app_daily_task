@@ -1,17 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:resume_app_daily_task/utils/snackBar/snackbar.dart';
 
-import 'Generate Dynamic Text Field/skills.dart';
-import 'Id Card Registration/registration.dart';
-import 'Log in/login.dart';
-import 'Log in/signup.dart';
-import 'gmail.dart';
-import 'google.dart';
-import 'googleLogIn/google1.dart';
-import 'googleLogIn/google2.dart';
-import 'googleLogIn/google3.dart';
-import 'imagepicker/imagepicker.dart';
+import 'PdfGenrate/pdf.dart';
+import 'PdfGenrate/pdfgenrator.dart';
 
 
 class gmail extends StatelessWidget {
@@ -22,7 +13,8 @@ class gmail extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/' : (context) => DynaimcTextField(),
+        '/' : (context) => InvoiceScreen(),
+        '/pdf' : (context) => PdfPageScreen(),
       }
     );
   }

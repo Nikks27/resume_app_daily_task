@@ -24,22 +24,17 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('Register',style: TextStyle(fontSize: 25,color: Colors.brown,fontWeight: FontWeight.bold),),
+      ),
       body:SingleChildScrollView(
         child: Column(
           children: [
-
-            Padding(
-              padding: const EdgeInsets.only(top: 50,left: 40),
-              child: Row(
-                children: [
-                  Text("Register",style: TextStyle(fontWeight: FontWeight.w500,fontSize: 40),),
-                ],
-              ),
-            ),
             SizedBox(height: 10,),
             CircleAvatar(
               radius: 90,
-              backgroundColor: Colors.black,
+              backgroundColor: Colors.brown,
               backgroundImage: (fileimg!=null)?FileImage(fileimg!):null,
             ),
             Row(
@@ -67,10 +62,6 @@ class _RegisterPageState extends State<RegisterPage> {
                 }, icon:Icon(Icons.image,size: 40,) )
               ],
             ),
-
-
-
-
             Padding(
               padding: const EdgeInsets.only(top: 10,left: 35,right: 35),
               child: TextField(
@@ -84,7 +75,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.brown,
                             width: 2.5
                         ),
                         borderRadius: BorderRadius.circular(15)
@@ -112,7 +103,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.brown,
                             width: 2.5
                         ),
                         borderRadius: BorderRadius.circular(15)
@@ -140,7 +131,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.brown,
                             width: 2.5
                         ),
                         borderRadius: BorderRadius.circular(15)
@@ -168,7 +159,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.brown,
                             width: 2.5
                         ),
                         borderRadius: BorderRadius.circular(15)
@@ -196,7 +187,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.brown,
                             width: 2.5
                         ),
                         borderRadius: BorderRadius.circular(15)
@@ -224,7 +215,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
-                            color: Colors.blue,
+                            color: Colors.brown,
                             width: 2.5
                         ),
                         borderRadius: BorderRadius.circular(15)
@@ -314,7 +305,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 height: 70,
                 width: 200,
                 decoration: BoxDecoration(
-                  color: Colors.blue,
+                  color: Colors.brown,
                   borderRadius: BorderRadius.circular(15),
                 ),
                 child: Center(

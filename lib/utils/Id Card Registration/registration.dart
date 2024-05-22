@@ -13,38 +13,21 @@ class _IdPageState extends State<IdPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-
+           centerTitle: true,
+           title: Text('Id Card',style: TextStyle(fontSize: 25,color: Colors.black,fontWeight: FontWeight.bold),),
       ),
       body: Center(
         child: Container(
-          height: 500,
-          width: 350,
+          height:500,
+          width: 360,
           decoration: BoxDecoration(
-            color: Colors.blue,
+            color: Colors.brown,
             borderRadius: BorderRadius.circular(15),
           ),
           child: Center(
             child: Column(
-
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  height: 50,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                      color: Colors.black26,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.white,
-                          blurRadius: 5,
-                          blurStyle: BlurStyle.outer,
-                        )
-                      ]
-                  ),
-                  child: Center(
-                    child:  Text("ID CARD",style: TextStyle(color: Colors.white,fontWeight: FontWeight.w700,fontSize: 25),),
-                  ),
-                ),
                 Padding(padding: EdgeInsets.only(bottom: 20)),
                 CircleAvatar(
                   radius: 90,
