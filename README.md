@@ -382,5 +382,21 @@ https://github.com/Nikks27/resume_app_daily_task/assets/148762716/a4e89b81-e3af-
 
 </div>
 
+#  Invoice Generator
+
+<h1 align="center"> 1. Invoice Generator  </h1>
+
+<h1 align="left"></h1>
+
+<div align ="center">
+
+  <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/b26616fa-1775-419c-afef-810793252a51" height ="550">
+    <img src = "https://github.com/Nikks27/resume_app_daily_task/assets/148762716/cce6773e-b4ac-4880-ba2b-f76d8230ad1f" height ="550">
+
+https://github.com/Nikks27/resume_app_daily_task/assets/148762716/a8d1fe49-3483-4971-bcb5-4a4af691c7c2
+
+
+</div>
+
 
 
